@@ -1,0 +1,156 @@
+[
+  {
+    "application_id": "SIM-KRD-001",
+    "product_code": "KREDIT-DEMO",
+    "product_name": "Produk Kredit Simulasi",
+    "as_of_date": "2026-11-23",
+    "administrative_status": "LENGKAP",
+    "document_results": [
+      {
+        "document_type": "application_form",
+        "label": "Formulir pengajuan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "identity_document",
+        "label": "Dokumen identitas",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "income_proof",
+        "label": "Bukti penghasilan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "bank_statement",
+        "label": "Rekening koran atau mutasi rekening",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      }
+    ],
+    "missing_documents": [],
+    "outdated_documents": [],
+    "documents_needing_review": [],
+    "disclaimer": "Hasil ini hanya pemeriksaan administratif, bukan keputusan persetujuan atau penolakan kredit."
+  },
+  {
+    "application_id": "SIM-KRD-002",
+    "product_code": "KREDIT-DEMO",
+    "product_name": "Produk Kredit Simulasi",
+    "as_of_date": "2026-11-23",
+    "administrative_status": "BELUM_LENGKAP",
+    "document_results": [
+      {
+        "document_type": "application_form",
+        "label": "Formulir pengajuan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "identity_document",
+        "label": "Dokumen identitas",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "income_proof",
+        "label": "Bukti penghasilan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "bank_statement",
+        "label": "Rekening koran atau mutasi rekening",
+        "status": "MISSING",
+        "detail": "Dokumen wajib belum tercatat diterima."
+      }
+    ],
+    "missing_documents": [
+      "bank_statement"
+    ],
+    "outdated_documents": [],
+    "documents_needing_review": [],
+    "disclaimer": "Hasil ini hanya pemeriksaan administratif, bukan keputusan persetujuan atau penolakan kredit."
+  },
+  {
+    "application_id": "SIM-KRD-003",
+    "product_code": "KREDIT-DEMO",
+    "product_name": "Produk Kredit Simulasi",
+    "as_of_date": "2026-11-23",
+    "administrative_status": "BELUM_LENGKAP",
+    "document_results": [
+      {
+        "document_type": "application_form",
+        "label": "Formulir pengajuan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "identity_document",
+        "label": "Dokumen identitas",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "income_proof",
+        "label": "Bukti penghasilan",
+        "status": "OUTDATED",
+        "detail": "Usia dokumen 175 hari, melewati batas simulasi 90 hari."
+      },
+      {
+        "document_type": "bank_statement",
+        "label": "Rekening koran atau mutasi rekening",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      }
+    ],
+    "missing_documents": [],
+    "outdated_documents": [
+      "income_proof"
+    ],
+    "documents_needing_review": [],
+    "disclaimer": "Hasil ini hanya pemeriksaan administratif, bukan keputusan persetujuan atau penolakan kredit."
+  },
+  {
+    "application_id": "SIM-KRD-004",
+    "product_code": "KREDIT-DEMO",
+    "product_name": "Produk Kredit Simulasi",
+    "as_of_date": "2026-11-23",
+    "administrative_status": "PERLU_VERIFIKASI",
+    "document_results": [
+      {
+        "document_type": "application_form",
+        "label": "Formulir pengajuan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "identity_document",
+        "label": "Dokumen identitas",
+        "status": "NEEDS_REVIEW",
+        "detail": "Dokumen ditandai tidak terbaca dan perlu pemeriksaan petugas."
+      },
+      {
+        "document_type": "income_proof",
+        "label": "Bukti penghasilan",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      },
+      {
+        "document_type": "bank_statement",
+        "label": "Rekening koran atau mutasi rekening",
+        "status": "ACCEPTED",
+        "detail": "Dokumen tercatat diterima dan memenuhi aturan administratif simulasi."
+      }
+    ],
+    "missing_documents": [],
+    "outdated_documents": [],
+    "documents_needing_review": [
+      "identity_document"
+    ],
+    "disclaimer": "Hasil ini hanya pemeriksaan administratif, bukan keputusan persetujuan atau penolakan kredit."
+  }
+]

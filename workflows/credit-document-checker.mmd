@@ -1,0 +1,17 @@
+flowchart TD
+    A([Data pengajuan diterima]) --> B[ baca ID pengajuan dan kode produk ]
+    B --> C{Kode produk ada di konfigurasi?}
+    C -- Tidak --> X[Hentikan proses dan tampilkan kesalahan konfigurasi]
+    C -- Ya --> D[Muat checklist dokumen wajib]
+    D --> E[Cocokkan dokumen yang diterima]
+    E --> F[Periksa status dan tanggal dokumen]
+    F --> G{Ada dokumen hilang atau tidak mutakhir?}
+    G -- Ya --> H[Status BELUM_LENGKAP]
+    G -- Tidak --> I{Ada data tidak terbaca atau ambigu?}
+    I -- Ya --> J[Status PERLU_VERIFIKASI]
+    I -- Tidak --> K[Status LENGKAP]
+    H --> L[Susun laporan administratif]
+    J --> L
+    K --> L
+    L --> M[Simpan hasil pemeriksaan]
+    M --> N([Selesai: bukan keputusan kredit])
