@@ -1,0 +1,30 @@
+{
+  "products": {
+    "KREDIT-DEMO": {
+      "display_name": "Produk Kredit Simulasi",
+      "note": "Aturan contoh untuk pembelajaran; bukan checklist resmi bank.",
+      "required_documents": [
+        {
+          "type": "application_form",
+          "label": "Formulir pengajuan",
+          "max_age_days": null
+        },
+        {
+          "type": "identity_document",
+          "label": "Dokumen identitas",
+          "max_age_days": null
+        },
+        {
+          "type": "income_proof",
+          "label": "Bukti penghasilan",
+          "max_age_days": 90
+        },
+        {
+          "type": "bank_statement",
+          "label": "Rekening koran atau mutasi rekening",
+          "max_age_days": 90
+        }
+      ]
+    }
+  }
+}
